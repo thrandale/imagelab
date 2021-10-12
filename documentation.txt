@@ -1,0 +1,45 @@
+Contributor code of conduct
+
+-Overview of subtable Contributors
+	-	The owner or otherwise known to have the power to edit and determine what goes in the 
+		project (repository) and overviews what happens with the other group members and in the 
+		local repository. 
+	-	Anyone that is given permission by the owner is allowed to modify all files with regard 
+		to ethics. This is due to the respect of the owner that gives the person permission to 
+		the project itself.
+	-	This can also include those that are allowed to view but not contribute fully. 
+		This entitles Those that are given permission to view the project but do not have direct 
+		correlation with it but can also participate in some aspects of the project. This can 
+		include testing, or .txt documents.
+	
+
+	-project development technologies, tools, and conventions
+		-We will use the XP ideology while working with this project.
+			- This includes testing at every step of the project
+			-At least 1-2 people working in the same or near the same part of th  
+			project (i.e. code review or code check).
+			-Work with the client all of the way through and to not let them in the dark 
+			while working. We will let them know what we are doing as it is their 
+			project we are working on.
+			-We will also work in chucks of easier projects then into bigger sides of 
+			the project
+		-We will be using our own IDE to look at the code reviews but also the writing of 
+		the code
+		-This can also include where we will be testing the code. We will be using a 
+		virtual machine to test our code.
+		-We will also be working on github to be able to get new updates for the project 
+		either from ourselves or other group members.
+
+	-Group org and repository
+		-We will be using the team name: “Red-5” and our repository reflects that of the 
+		project section or repository of the CS group in github
+
+	-Navigation of documents
+		-Actual code
+			-This is the source code that we will be using to execute the project and 
+			test our 
+			project as well
+			-We will have text files or documents, such as this one, that explain the 
+			project or 
+			explain some if the guidelines of this project as we are working on it; in 
+			case someone new joins.
