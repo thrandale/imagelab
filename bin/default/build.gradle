@@ -31,8 +31,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     // JUnit compile dependencies
-    testCompile 'junit:junit:4.12'
-    compile 'junit:junit:4.12'
+    implementation 'junit:junit:4.12'
 }
 
 // Add source code directories
@@ -60,9 +59,9 @@ jar {
         attributes "Main-Class": "Run"
     }
 
-    from {
-        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-    }
+    // from {
+    //     configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    // }
 }
 
 test {
