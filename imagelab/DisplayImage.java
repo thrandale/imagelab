@@ -37,7 +37,7 @@ public class DisplayImage extends ILFrame {
     /** Integer value of green in the DisplayImage background. */
     private static final int GREEN_VALUE = 255;
     /** Integer value of blue in the DisplayImage background. */
-    private static final int BLUE_VALUE =255;
+    private static final int BLUE_VALUE = 255;
     /** DisplayImage sleep timing. */
     private static final int SLEEP_TIME = 50;
     /** x-coordinate for next window. */
@@ -100,7 +100,8 @@ public class DisplayImage extends ILFrame {
         }
         // Cascade subsequent windows
         xspot = ((xspot + width + XDELTA) <= XMAX) ? xspot + XDELTA : XINIT;
-        yspot = ((yspot + height + YDELTA + EXTRA_HEIGHT) <= YMAX) ? yspot + YDELTA : YINIT;
+        yspot = ((yspot + height + YDELTA + EXTRA_HEIGHT) <= YMAX)
+            ? yspot + YDELTA : YINIT;
         setBounds(xspot, yspot, width, height + EXTRA_HEIGHT);
         WindowCloser wc = new WindowCloser(this);
         this.addWindowListener(wc);
