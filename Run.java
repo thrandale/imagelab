@@ -3,7 +3,6 @@ import imagelab.ImageLab;
  * ImageLab is a framework for student exploration of image processing.
  * copyright (C) 2016,2019 by Aaron Gordon & Jody Paul
  * This program comes with ABSOLUTELY NO WARRANTY.
- * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -24,7 +23,10 @@ import imagelab.ImageLab;
  * @version 1.8.2
  */
 public class Run {
-    public static void main(String[] args) {
+    /**This constructor allows the ImageLab program to build and run.
+    * @param args come from the parameters from the main method of ImageLab.
+    */
+    private void main(final String[] args) {
         ImageLab.main(args);
     }
 }
