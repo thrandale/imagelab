@@ -8,7 +8,7 @@ import java.awt.Image;
  * to retrieve the singleton object each time.
  *
  * @author Dr. Jody Paul
- * @version 1.1.1
+ * @version 1.1.2
  */
 public class DynDisplayImage extends DisplayImage {
     /** Serialization version. */
