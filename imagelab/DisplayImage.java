@@ -10,7 +10,7 @@ import java.awt.image.MemoryImageSource;
  *
  * @author Dr. Aaron Gordon
  * @author Dr. Jody Paul
- * @version 1.1
+ * @version 1.2
  */
 public class DisplayImage extends ILFrame {
     /** Serialization version. */
