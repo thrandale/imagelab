@@ -3,7 +3,6 @@ import imagelab.ImageLab;
  * ImageLab is a framework for student exploration of image processing.
  * copyright (C) 2016,2019 by Aaron Gordon & Jody Paul
  * This program comes with ABSOLUTELY NO WARRANTY.
- * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
