@@ -24,7 +24,10 @@ import imagelab.ImageLab;
  * @version 1.8.2
  */
 public class Run {
-    public static void main(String[] args) {
+    /**This constructor allows the ImageLab program to build and run.
+    * @param args come from the parameters from the main method of ImageLab.
+    */
+    public static void main(final String[] args) {
         ImageLab.main(args);
     }
 }
