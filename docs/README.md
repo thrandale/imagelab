@@ -14,7 +14,7 @@ A sample set of images are provided in an **images** directory.
 
 To run ImageLab from the command line:
 
-* Make sure a **filters** directory is _in the same directory_ as the **imagelab.jar** file.
+* Make sure a **filters** directory is _in the same directory_ as the **imagelab.jar** file and contains compiled filters (`.class` files).
 
 * Then issue the command  
 ```java -jar imagelab.jar```  
